@@ -6,5 +6,10 @@
 
 def happy_birthday(birthday_kids)
   # add your code snippet here!
-  "Happy Birthday Timmy! You are now #{} years old!"
+  birthday_kids.each do |key, value|
+    puts "Happy Birthday #{key}! You are now #{value} years old!"
+end
+
+hash.each do |key, value|
+  puts "#{key}: #{value}"
 end
